@@ -1,0 +1,218 @@
+[
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-001",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-001",
+    "equivalence": "equivalent",
+    "confidence": 0.95,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-001",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "2A00",
+    "equivalence": "wider",
+    "confidence": 0.75,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-002",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-010",
+    "equivalence": "equivalent",
+    "confidence": 0.9,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-002",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "CA23",
+    "equivalence": "equivalent",
+    "confidence": 0.85,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-003",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-020",
+    "equivalence": "equivalent",
+    "confidence": 0.88,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-003",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "MD11",
+    "equivalence": "equivalent",
+    "confidence": 0.82,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-004",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-050",
+    "equivalence": "equivalent",
+    "confidence": 0.92,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-004",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "DD90",
+    "equivalence": "equivalent",
+    "confidence": 0.9,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-005",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-060",
+    "equivalence": "equivalent",
+    "confidence": 0.87,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-005",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "DD70",
+    "equivalence": "equivalent",
+    "confidence": 0.85,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-006",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-070",
+    "equivalence": "wider",
+    "confidence": 0.8,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-006",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "5A11",
+    "equivalence": "wider",
+    "confidence": 0.78,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-007",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-030",
+    "equivalence": "wider",
+    "confidence": 0.75,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-007",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "8A80",
+    "equivalence": "wider",
+    "confidence": 0.7,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-008",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-040",
+    "equivalence": "equivalent",
+    "confidence": 0.93,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-008",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "5C64",
+    "equivalence": "equivalent",
+    "confidence": 0.91,
+    "source": "approved"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-009",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-090",
+    "equivalence": "wider",
+    "confidence": 0.65,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-009",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "2F20",
+    "equivalence": "wider",
+    "confidence": 0.6,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-010",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-080",
+    "equivalence": "wider",
+    "confidence": 0.7,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "NAM-010",
+    "toSystem": "ICD11-Biomed",
+    "toCode": "EH90",
+    "equivalence": "wider",
+    "confidence": 0.68,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "SID-001",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-002",
+    "equivalence": "equivalent",
+    "confidence": 0.88,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "SID-002",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-011",
+    "equivalence": "equivalent",
+    "confidence": 0.85,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "UNA-001",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-003",
+    "equivalence": "equivalent",
+    "confidence": 0.87,
+    "source": "suggested"
+  },
+  {
+    "fromSystem": "NAMASTE",
+    "fromCode": "UNA-004",
+    "toSystem": "ICD11-TM2",
+    "toCode": "TM2-071",
+    "equivalence": "equivalent",
+    "confidence": 0.82,
+    "source": "suggested"
+  }
+]

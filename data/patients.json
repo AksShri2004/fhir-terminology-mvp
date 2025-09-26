@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ABHA-001-DEMO",
+    "name": "Rajesh Kumar",
+    "age": 45,
+    "gender": "Male",
+    "conditions": [
+      {
+        "code": "NAM-001",
+        "system": "NAMASTE",
+        "display": "Jvara",
+        "dateRecorded": "2024-01-15"
+      }
+    ]
+  },
+  {
+    "id": "ABHA-002-DEMO",
+    "name": "Priya Sharma",
+    "age": 32,
+    "gender": "Female",
+    "conditions": [
+      {
+        "code": "NAM-002",
+        "system": "NAMASTE",
+        "display": "Kasa",
+        "dateRecorded": "2024-01-10"
+      },
+      {
+        "code": "NAM-007",
+        "system": "NAMASTE",
+        "display": "Shirahshula",
+        "dateRecorded": "2024-01-12"
+      }
+    ]
+  },
+  {
+    "id": "ABHA-003-DEMO",
+    "name": "Mohammed Ali",
+    "age": 58,
+    "gender": "Male",
+    "conditions": [
+      {
+        "code": "UNA-004",
+        "system": "NAMASTE",
+        "display": "Ziabetus",
+        "dateRecorded": "2024-01-08"
+      }
+    ]
+  }
+]

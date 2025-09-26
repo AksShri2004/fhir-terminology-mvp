@@ -1,0 +1,179 @@
+{
+  "resourceType": "Bundle",
+  "id": "example-dual-coded-conditions",
+  "type": "collection",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-jvara-fever",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2024-01-15T10:30:00Z",
+          "source": "FHIR-Terminology-Microservice"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "NAMASTE",
+              "code": "NAM-001",
+              "display": "Jvara"
+            },
+            {
+              "system": "ICD11-TM2",
+              "code": "TM2-001",
+              "display": "Fever pattern - Continuous"
+            },
+            {
+              "system": "ICD11-Biomed",
+              "code": "2A00",
+              "display": "Malaria"
+            }
+          ],
+          "text": "Fever condition with traditional and modern coding"
+        },
+        "subject": {
+          "reference": "Patient/demo-patient"
+        },
+        "recordedDate": "2024-01-15T10:30:00Z",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/mapping-provenance",
+            "extension": [
+              {
+                "url": "confidence",
+                "valueDecimal": 0.95
+              },
+              {
+                "url": "source",
+                "valueString": "approved"
+              },
+              {
+                "url": "mappingDate",
+                "valueDateTime": "2024-01-01T00:00:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-kasa-cough",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2024-01-15T10:30:00Z",
+          "source": "FHIR-Terminology-Microservice"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "NAMASTE",
+              "code": "NAM-002",
+              "display": "Kasa"
+            },
+            {
+              "system": "ICD11-TM2",
+              "code": "TM2-010",
+              "display": "Cough - Dry"
+            },
+            {
+              "system": "ICD11-Biomed",
+              "code": "CA23",
+              "display": "Cough"
+            }
+          ],
+          "text": "Cough condition with dual-coding"
+        },
+        "subject": {
+          "reference": "Patient/demo-patient"
+        },
+        "recordedDate": "2024-01-15T10:30:00Z",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/mapping-provenance",
+            "extension": [
+              {
+                "url": "confidence",
+                "valueDecimal": 0.9
+              },
+              {
+                "url": "source",
+                "valueString": "approved"
+              },
+              {
+                "url": "mappingDate",
+                "valueDateTime": "2024-01-01T00:00:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-suggested-mapping",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2024-01-15T10:30:00Z",
+          "source": "FHIR-Terminology-Microservice"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "NAMASTE",
+              "code": "NAM-009",
+              "display": "Gulma"
+            }
+          ],
+          "text": "Abdominal mass with suggested mapping"
+        },
+        "subject": {
+          "reference": "Patient/demo-patient"
+        },
+        "recordedDate": "2024-01-15T10:30:00Z",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/suggested-coding",
+            "valueCoding": {
+              "system": "ICD11-TM2",
+              "code": "TM2-090",
+              "display": "Abdominal mass - Solid"
+            },
+            "extension": [
+              {
+                "url": "suggested",
+                "valueBoolean": true
+              },
+              {
+                "url": "confidence",
+                "valueDecimal": 0.65
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/suggested-coding",
+            "valueCoding": {
+              "system": "ICD11-Biomed",
+              "code": "2F20",
+              "display": "Neoplasm of uncertain behaviour"
+            },
+            "extension": [
+              {
+                "url": "suggested",
+                "valueBoolean": true
+              },
+              {
+                "url": "confidence",
+                "valueDecimal": 0.6
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

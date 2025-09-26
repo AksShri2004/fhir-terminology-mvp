@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "namaste",
+  "url": "http://terminology.hl7.org/CodeSystem/namaste",
+  "version": "1.0.0",
+  "name": "NAMASTE",
+  "title": "NAMASTE Traditional Medicine Terminology",
+  "status": "active",
+  "date": "2024-01-01",
+  "publisher": "FHIR Terminology Microservice",
+  "description": "Traditional medicine terminology covering Ayurveda, Siddha, and Unani systems",
+  "content": "complete",
+  "count": 20,
+  "concept": [
+    {
+      "code": "NAM-001",
+      "display": "Jvara",
+      "definition": "Elevated body temperature due to imbalance of Pitta dosha",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-002",
+      "display": "Kasa",
+      "definition": "Respiratory condition with expulsion of air from lungs",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-003",
+      "display": "Shwasa",
+      "definition": "Difficulty in breathing due to Vata-Kapha imbalance",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-004",
+      "display": "Arsha",
+      "definition": "Swelling of blood vessels in rectum and anus",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-005",
+      "display": "Atisara",
+      "definition": "Frequent loose or liquid bowel movements",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-006",
+      "display": "Prameha",
+      "definition": "Metabolic disorder with excessive urination",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-007",
+      "display": "Shirahshula",
+      "definition": "Pain in head region due to Vata dosha",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-008",
+      "display": "Kamala",
+      "definition": "Yellow discoloration of skin and eyes",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-009",
+      "display": "Gulma",
+      "definition": "Abnormal growth or mass in abdomen",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "NAM-010",
+      "display": "Kushtha",
+      "definition": "Various skin disorders and conditions",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "code": "SID-001",
+      "display": "Humma",
+      "definition": "Increase in body heat due to imbalance of Hararat",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Siddha"
+        }
+      ]
+    },
+    {
+      "code": "SID-002",
+      "display": "Irumal",
+      "definition": "Forceful expulsion of air from respiratory tract",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Siddha"
+        }
+      ]
+    },
+    {
+      "code": "SID-003",
+      "display": "Moolam",
+      "definition": "Swollen blood vessels in anal region",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Siddha"
+        }
+      ]
+    },
+    {
+      "code": "UNA-001",
+      "display": "Hummiya",
+      "definition": "Elevation of body temperature due to Hararat imbalance",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-002",
+      "display": "Sual",
+      "definition": "Coughing due to Balgham accumulation",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-003",
+      "display": "Bavaseer",
+      "definition": "Swelling of veins in rectum and anus",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-004",
+      "display": "Ziabetus",
+      "definition": "Disorder of sugar metabolism",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-005",
+      "display": "Sudda",
+      "definition": "Pain in head region due to Safra imbalance",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-006",
+      "display": "Yarqan",
+      "definition": "Yellow discoloration due to liver dysfunction",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    },
+    {
+      "code": "UNA-007",
+      "display": "Ishaal",
+      "definition": "Frequent passage of loose watery stools",
+      "property": [
+        {
+          "code": "system",
+          "valueString": "Unani"
+        }
+      ]
+    }
+  ]
+}

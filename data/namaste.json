@@ -1,0 +1,162 @@
+[
+  {
+    "id": "NAM-001",
+    "code": "NAM-001",
+    "display": "Jvara",
+    "synonyms": ["Fever", "Jwara", "Santapa"],
+    "definition": "Elevated body temperature due to imbalance of Pitta dosha",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-002",
+    "code": "NAM-002",
+    "display": "Kasa",
+    "synonyms": ["Cough", "Kapha", "Kshaya"],
+    "definition": "Respiratory condition with expulsion of air from lungs",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-003",
+    "code": "NAM-003",
+    "display": "Shwasa",
+    "synonyms": ["Dyspnea", "Breathing difficulty", "Pranakshaya"],
+    "definition": "Difficulty in breathing due to Vata-Kapha imbalance",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-004",
+    "code": "NAM-004",
+    "display": "Arsha",
+    "synonyms": ["Hemorrhoids", "Piles", "Gudagata roga"],
+    "definition": "Swelling of blood vessels in rectum and anus",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-005",
+    "code": "NAM-005",
+    "display": "Atisara",
+    "synonyms": ["Diarrhea", "Loose motions", "Pravahika"],
+    "definition": "Frequent loose or liquid bowel movements",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-006",
+    "code": "NAM-006",
+    "display": "Prameha",
+    "synonyms": ["Diabetes", "Madhumeha", "Sweet urine"],
+    "definition": "Metabolic disorder with excessive urination",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-007",
+    "code": "NAM-007",
+    "display": "Shirahshula",
+    "synonyms": ["Headache", "Mastakashula", "Cranial pain"],
+    "definition": "Pain in head region due to Vata dosha",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-008",
+    "code": "NAM-008",
+    "display": "Kamala",
+    "synonyms": ["Jaundice", "Haridra roga", "Yellow discoloration"],
+    "definition": "Yellow discoloration of skin and eyes",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-009",
+    "code": "NAM-009",
+    "display": "Gulma",
+    "synonyms": ["Abdominal mass", "Tumor", "Granthi"],
+    "definition": "Abnormal growth or mass in abdomen",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "NAM-010",
+    "code": "NAM-010",
+    "display": "Kushtha",
+    "synonyms": ["Skin disease", "Dermatitis", "Tvak roga"],
+    "definition": "Various skin disorders and conditions",
+    "system": "Ayurveda"
+  },
+  {
+    "id": "SID-001",
+    "code": "SID-001",
+    "display": "Humma",
+    "synonyms": ["Fever", "Hararat", "Elevated temperature"],
+    "definition": "Increase in body heat due to imbalance of Hararat",
+    "system": "Siddha"
+  },
+  {
+    "id": "SID-002",
+    "code": "SID-002",
+    "display": "Irumal",
+    "synonyms": ["Cough", "Kapha expulsion"],
+    "definition": "Forceful expulsion of air from respiratory tract",
+    "system": "Siddha"
+  },
+  {
+    "id": "SID-003",
+    "code": "SID-003",
+    "display": "Moolam",
+    "synonyms": ["Hemorrhoids", "Rectal swelling"],
+    "definition": "Swollen blood vessels in anal region",
+    "system": "Siddha"
+  },
+  {
+    "id": "UNA-001",
+    "code": "UNA-001",
+    "display": "Hummiya",
+    "synonyms": ["Fever", "Hararat", "Body heat"],
+    "definition": "Elevation of body temperature due to Hararat imbalance",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-002",
+    "code": "UNA-002",
+    "display": "Sual",
+    "synonyms": ["Cough", "Respiratory distress"],
+    "definition": "Coughing due to Balgham accumulation",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-003",
+    "code": "UNA-003",
+    "display": "Bavaseer",
+    "synonyms": ["Hemorrhoids", "Piles", "Anal swelling"],
+    "definition": "Swelling of veins in rectum and anus",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-004",
+    "code": "UNA-004",
+    "display": "Ziabetus",
+    "synonyms": ["Diabetes", "Sweet urine", "Metabolic disorder"],
+    "definition": "Disorder of sugar metabolism",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-005",
+    "code": "UNA-005",
+    "display": "Sudda",
+    "synonyms": ["Headache", "Cranial pain"],
+    "definition": "Pain in head region due to Safra imbalance",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-006",
+    "code": "UNA-006",
+    "display": "Yarqan",
+    "synonyms": ["Jaundice", "Yellow skin", "Liver disorder"],
+    "definition": "Yellow discoloration due to liver dysfunction",
+    "system": "Unani"
+  },
+  {
+    "id": "UNA-007",
+    "code": "UNA-007",
+    "display": "Ishaal",
+    "synonyms": ["Diarrhea", "Loose stools", "Frequent motions"],
+    "definition": "Frequent passage of loose watery stools",
+    "system": "Unani"
+  }
+]

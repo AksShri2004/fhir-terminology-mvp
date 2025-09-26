@@ -1,0 +1,140 @@
+FHIR TERMINOLOGY MICROSERVICE - HACKATHON DEMO SCRIPT
+=====================================================
+
+TOTAL TIME: 3-4 minutes
+GOAL: Demonstrate NAMASTE to ICD-11 mapping with FHIR compliance
+
+SETUP (30 seconds before demo):
+- Ensure both backend (localhost:8000) and frontend (localhost:3000) are running
+- Open browser to http://localhost:3000
+- Have curl commands ready for API demonstration (optional)
+
+DEMO FLOW:
+
+1. SEARCH & MAPPING DEMONSTRATION (60 seconds)
+   ============================================
+   
+   ACTION: Open Search & Autocomplete tab
+   SAY: "This is our FHIR-compliant terminology microservice that maps traditional medicine codes to ICD-11"
+   
+   ACTION: Type "Jvara" in search box
+   SAY: "Jvara is the Ayurvedic term for fever. Watch how we get both traditional and modern mappings"
+   
+   POINT OUT:
+   - NAMASTE code badge (NAM-001)
+   - ICD-11 TM2 mapping (Traditional Medicine chapter)
+   - ICD-11 Biomed mapping (Standard biomedical)
+   - Confidence badges (High/Medium/Low)
+   - Synonyms showing "Fever, Jwara, Santapa"
+   
+   ACTION: Click "Add to Problem List"
+   SAY: "Notice the dual-coding - we maintain the traditional diagnosis while adding interoperable ICD-11 codes"
+
+2. FHIR BUNDLE GENERATION (60 seconds)
+   ===================================
+   
+   ACTION: Switch to "Problem List" tab
+   SAY: "Now let's generate a FHIR R4 Bundle with dual-coded conditions"
+   
+   POINT OUT:
+   - Condition shows both NAMASTE and ICD-11 codes
+   - Dual-coding visualization with color-coded badges
+   
+   ACTION: Click "Save as FHIR Bundle"
+   SAY: "This creates a standards-compliant FHIR Bundle with mock ABHA authentication"
+   
+   POINT OUT:
+   - Generated Bundle JSON with dual-coding
+   - Audit ID in sidebar (shows compliance tracking)
+   - FHIR Condition resources with both code systems
+   - Meta information and provenance extensions
+   
+   ACTION: Click "Download JSON" (optional)
+   SAY: "The Bundle can be exported for integration with any FHIR-compliant EMR system"
+
+3. CURATOR WORKFLOW (60 seconds)
+   ==============================
+   
+   ACTION: Switch to "Curator View" tab
+   SAY: "Our system includes human-in-the-loop governance for mapping quality"
+   
+   POINT OUT:
+   - Suggested mappings awaiting approval
+   - Confidence scores and equivalence types
+   - Source system indicators
+   
+   ACTION: Click "Approve" on a suggested mapping
+   SAY: "Curators can approve or reject AI-suggested mappings to ensure clinical accuracy"
+   
+   POINT OUT:
+   - Mapping disappears from pending list
+   - Audit trail updates in sidebar
+   - ConceptMap version increments
+   
+   SAY: "This ensures mapping quality while scaling terminology coverage"
+
+4. AI CHAT ASSISTANT (45 seconds)
+   ===============================
+   
+   ACTION: Switch to "Chat Assistant" tab
+   SAY: "Clinicians can use natural language to find appropriate codes"
+   
+   ACTION: Type "fever and chills" in chat
+   SAY: "The AI understands symptoms and suggests appropriate NAMASTE codes with ICD-11 mappings"
+   
+   POINT OUT:
+   - Natural language processing
+   - NAMASTE code suggestion with confidence
+   - Mapped ICD-11 codes (both TM2 and Biomed)
+   - FHIR Condition preview
+   
+   ACTION: Click "Add to Problem List"
+   SAY: "Suggestions integrate directly into the clinical workflow"
+
+5. ANALYTICS & COMPLIANCE (15 seconds)
+   ====================================
+   
+   ACTION: Switch to "Analytics" tab
+   SAY: "Finally, our system provides governance metrics"
+   
+   POINT OUT:
+   - Terminology coverage percentage
+   - Mapping approval rates
+   - Quality recommendations
+   - Audit trail in sidebar showing all activities
+
+CLOSING STATEMENT (15 seconds):
+==============================
+
+SAY: "This MVP demonstrates a complete FHIR R4-compliant terminology microservice that bridges traditional and modern medicine while maintaining clinical governance, audit compliance, and interoperability standards. It's ready for integration into existing healthcare systems."
+
+TECHNICAL BACKUP (if questions):
+===============================
+
+API Endpoints Available:
+- GET /v1/terminology/autocomplete?q=fever
+- POST /v1/terminology/translate
+- GET /fhir/CodeSystem/namaste
+- GET /fhir/ConceptMap/namaste-to-icd11
+- POST /v1/fhir/Bundle (with auth headers)
+- POST /v1/chat
+
+Key Features Demonstrated:
+✓ FHIR R4 compliance (CodeSystem, ConceptMap, Bundle)
+✓ Dual-coding (NAMASTE + ICD-11 TM2 + Biomed)
+✓ Human-in-the-loop governance
+✓ Natural language processing
+✓ Audit trail with mock ABHA
+✓ No external dependencies (all local JSON)
+✓ Production-ready architecture
+
+TROUBLESHOOTING:
+- If backend not responding: Check localhost:8000/docs
+- If frontend issues: Check browser console
+- If data missing: Verify /data directory has JSON files
+- If CORS errors: Ensure backend CORS middleware is enabled
+
+TIME MANAGEMENT:
+- If running short: Skip chat demo, focus on search + FHIR Bundle
+- If extra time: Show API documentation at localhost:8000/docs
+- Always end with analytics to show governance metrics

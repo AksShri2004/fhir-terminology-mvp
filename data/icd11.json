@@ -1,0 +1,242 @@
+[
+  {
+    "code": "1A00",
+    "title": "Cholera",
+    "synonyms": ["Vibrio cholerae infection", "Asiatic cholera"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "1A20",
+    "title": "Typhoid fever",
+    "synonyms": ["Enteric fever", "Salmonella typhi infection"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "1A40",
+    "title": "Paratyphoid fever",
+    "synonyms": ["Salmonella paratyphi infection"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "1C62.0",
+    "title": "Pneumonia due to Streptococcus pneumoniae",
+    "synonyms": ["Pneumococcal pneumonia"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "2A00",
+    "title": "Malaria",
+    "synonyms": ["Plasmodium infection", "Malarial fever"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "5A14",
+    "title": "Type 1 diabetes mellitus",
+    "synonyms": ["Insulin-dependent diabetes", "IDDM"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "5A11",
+    "title": "Type 2 diabetes mellitus",
+    "synonyms": ["Non-insulin-dependent diabetes", "NIDDM"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "8A80",
+    "title": "Primary headache disorders",
+    "synonyms": ["Migraine", "Tension headache"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "5C64",
+    "title": "Jaundice",
+    "synonyms": ["Icterus", "Hyperbilirubinemia"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "DD90",
+    "title": "Haemorrhoids",
+    "synonyms": ["Piles", "Hemorrhoidal disease"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "DD70",
+    "title": "Diarrhoea",
+    "synonyms": ["Loose stools", "Gastroenteritis"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "CA23",
+    "title": "Cough",
+    "synonyms": ["Tussis", "Respiratory cough"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "MD11",
+    "title": "Dyspnoea",
+    "synonyms": ["Shortness of breath", "Breathing difficulty"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "EH90",
+    "title": "Dermatitis",
+    "synonyms": ["Skin inflammation", "Eczema"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "2F20",
+    "title": "Neoplasm of uncertain behaviour",
+    "synonyms": ["Tumor", "Mass lesion"],
+    "chapter": "Biomed"
+  },
+  {
+    "code": "TM2-001",
+    "title": "Fever pattern - Continuous",
+    "synonyms": ["Sustained fever", "Persistent hyperthermia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-002",
+    "title": "Fever pattern - Intermittent",
+    "synonyms": ["Periodic fever", "Cyclical hyperthermia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-003",
+    "title": "Fever pattern - Remittent",
+    "synonyms": ["Fluctuating fever", "Variable hyperthermia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-010",
+    "title": "Cough - Dry",
+    "synonyms": ["Non-productive cough", "Irritative cough"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-011",
+    "title": "Cough - Productive",
+    "synonyms": ["Wet cough", "Cough with expectoration"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-020",
+    "title": "Breathing difficulty - Inspiratory",
+    "synonyms": ["Inspiratory dyspnea", "Inhalation difficulty"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-021",
+    "title": "Breathing difficulty - Expiratory",
+    "synonyms": ["Expiratory dyspnea", "Exhalation difficulty"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-030",
+    "title": "Headache - Frontal",
+    "synonyms": ["Forehead pain", "Anterior cephalgia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-031",
+    "title": "Headache - Temporal",
+    "synonyms": ["Temple pain", "Lateral cephalgia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-032",
+    "title": "Headache - Occipital",
+    "synonyms": ["Back of head pain", "Posterior cephalgia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-040",
+    "title": "Jaundice - Hepatic",
+    "synonyms": ["Liver-related jaundice", "Hepatocellular icterus"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-041",
+    "title": "Jaundice - Obstructive",
+    "synonyms": ["Cholestatic jaundice", "Blocked bile duct"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-050",
+    "title": "Hemorrhoids - Internal",
+    "synonyms": ["Internal piles", "Intra-anal swelling"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-051",
+    "title": "Hemorrhoids - External",
+    "synonyms": ["External piles", "Perianal swelling"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-060",
+    "title": "Diarrhea - Acute",
+    "synonyms": ["Sudden onset loose stools", "Acute gastroenteritis"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-061",
+    "title": "Diarrhea - Chronic",
+    "synonyms": ["Persistent loose stools", "Chronic gastroenteritis"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-070",
+    "title": "Diabetes - Type 1 pattern",
+    "synonyms": ["Insulin deficiency pattern", "Juvenile onset pattern"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-071",
+    "title": "Diabetes - Type 2 pattern",
+    "synonyms": ["Insulin resistance pattern", "Adult onset pattern"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-080",
+    "title": "Skin condition - Inflammatory",
+    "synonyms": ["Inflammatory dermatosis", "Skin inflammation pattern"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-081",
+    "title": "Skin condition - Infectious",
+    "synonyms": ["Infectious dermatosis", "Skin infection pattern"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-090",
+    "title": "Abdominal mass - Solid",
+    "synonyms": ["Solid abdominal tumor", "Hard abdominal swelling"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-091",
+    "title": "Abdominal mass - Cystic",
+    "synonyms": ["Cystic abdominal tumor", "Fluid-filled swelling"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-100",
+    "title": "Constitutional symptoms - Fatigue",
+    "synonyms": ["Chronic tiredness", "Energy depletion"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-101",
+    "title": "Constitutional symptoms - Weight loss",
+    "synonyms": ["Unintentional weight reduction", "Cachexia"],
+    "chapter": "TM2"
+  },
+  {
+    "code": "TM2-102",
+    "title": "Constitutional symptoms - Night sweats",
+    "synonyms": ["Nocturnal hyperhidrosis", "Night-time sweating"],
+    "chapter": "TM2"
+  }
+]

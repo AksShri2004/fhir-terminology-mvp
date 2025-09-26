@@ -1,0 +1,332 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "namaste-to-icd11",
+  "url": "http://terminology.hl7.org/ConceptMap/namaste-to-icd11",
+  "version": "demo-1.0",
+  "name": "NAMASTEToICD11",
+  "title": "NAMASTE to ICD-11 Concept Map",
+  "status": "active",
+  "date": "2024-01-01",
+  "publisher": "FHIR Terminology Microservice",
+  "description": "Mapping from NAMASTE traditional medicine codes to ICD-11",
+  "sourceUri": "http://terminology.hl7.org/CodeSystem/namaste",
+  "targetUri": "http://terminology.hl7.org/CodeSystem/icd11",
+  "group": [
+    {
+      "source": "NAMASTE",
+      "target": "ICD11-TM2",
+      "element": [
+        {
+          "code": "NAM-001",
+          "target": [
+            {
+              "code": "TM2-001",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.95
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-002",
+          "target": [
+            {
+              "code": "TM2-010",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.9
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-003",
+          "target": [
+            {
+              "code": "TM2-020",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.88
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-004",
+          "target": [
+            {
+              "code": "TM2-050",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.92
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-005",
+          "target": [
+            {
+              "code": "TM2-060",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.87
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-006",
+          "target": [
+            {
+              "code": "TM2-070",
+              "equivalence": "wider",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.8
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-007",
+          "target": [
+            {
+              "code": "TM2-030",
+              "equivalence": "wider",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.75
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-008",
+          "target": [
+            {
+              "code": "TM2-040",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.93
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "NAMASTE",
+      "target": "ICD11-Biomed",
+      "element": [
+        {
+          "code": "NAM-001",
+          "target": [
+            {
+              "code": "2A00",
+              "equivalence": "wider",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.75
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-002",
+          "target": [
+            {
+              "code": "CA23",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.85
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-003",
+          "target": [
+            {
+              "code": "MD11",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.82
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-004",
+          "target": [
+            {
+              "code": "DD90",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.9
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-005",
+          "target": [
+            {
+              "code": "DD70",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.85
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-006",
+          "target": [
+            {
+              "code": "5A11",
+              "equivalence": "wider",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.78
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-007",
+          "target": [
+            {
+              "code": "8A80",
+              "equivalence": "wider",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.7
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "NAM-008",
+          "target": [
+            {
+              "code": "5C64",
+              "equivalence": "equivalent",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-confidence",
+                  "valueDecimal": 0.91
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/concept-map-source",
+                  "valueString": "approved"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

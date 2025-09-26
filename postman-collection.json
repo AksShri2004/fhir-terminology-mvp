@@ -1,0 +1,205 @@
+{
+  "info": {
+    "name": "FHIR Terminology Microservice",
+    "description": "API collection for testing the NAMASTE to ICD-11 mapping service",
+    "version": "1.0.0"
+  },
+  "item": [
+    {
+      "name": "Terminology Services",
+      "item": [
+        {
+          "name": "Autocomplete Search",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/terminology/autocomplete?q=fever&limit=5",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "terminology", "autocomplete"],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "fever"
+                },
+                {
+                  "key": "limit",
+                  "value": "5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Translate Code",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fromSystem\": \"NAMASTE\",\n  \"code\": \"NAM-001\",\n  \"toSystem\": \"ICD11-TM2\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/v1/terminology/translate",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "terminology", "translate"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FHIR Resources",
+      "item": [
+        {
+          "name": "Get NAMASTE CodeSystem",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/fhir/CodeSystem/namaste",
+              "host": ["{{baseUrl}}"],
+              "path": ["fhir", "CodeSystem", "namaste"]
+            }
+          }
+        },
+        {
+          "name": "Get ConceptMap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/fhir/ConceptMap/namaste-to-icd11",
+              "host": ["{{baseUrl}}"],
+              "path": ["fhir", "ConceptMap", "namaste-to-icd11"]
+            }
+          }
+        },
+        {
+          "name": "Process FHIR Bundle",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer mock-abha-token"
+              },
+              {
+                "key": "X-Consent-Artifact",
+                "value": "mock-consent-123"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"resourceType\": \"Bundle\",\n  \"id\": \"test-bundle\",\n  \"type\": \"collection\",\n  \"entry\": [\n    {\n      \"resource\": {\n        \"resourceType\": \"Condition\",\n        \"id\": \"test-condition\",\n        \"code\": {\n          \"coding\": [\n            {\n              \"system\": \"NAMASTE\",\n              \"code\": \"NAM-001\",\n              \"display\": \"Jvara\"\n            }\n          ]\n        },\n        \"subject\": {\n          \"reference\": \"Patient/demo\"\n        }\n      }\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/v1/fhir/Bundle",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "fhir", "Bundle"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat & Curator",
+      "item": [
+        {
+          "name": "Chat Query",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer mock-abha-token"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"patient has fever and headache\",\n  \"patientRef\": \"demo-patient\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/v1/chat",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "chat"]
+            }
+          }
+        },
+        {
+          "name": "Get Suggested Mappings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/conceptmap/suggested",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "conceptmap", "suggested"]
+            }
+          }
+        },
+        {
+          "name": "Approve Mapping",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/conceptmap/approve/NAM-009/TM2-090",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "conceptmap", "approve", "NAM-009", "TM2-090"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Analytics & Audit",
+      "item": [
+        {
+          "name": "Get Coverage Analytics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/analytics/coverage",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "analytics", "coverage"]
+            }
+          }
+        },
+        {
+          "name": "Get Audit Logs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/audit/logs",
+              "host": ["{{baseUrl}}"],
+              "path": ["v1", "audit", "logs"]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000",
+      "type": "string"
+    }
+  ]
+}
